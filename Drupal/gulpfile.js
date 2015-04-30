@@ -6,7 +6,7 @@ var
 	minifyCss		= require('gulp-minify-css'),				// Minify CSS
 	uglify			= require('gulp-uglify'),				// Minify/Obfuscation JS
 	concat 			= require('gulp-concat'),				// Concatenate several files
-	autoprefixer		= require('gulp-autoprefixer'),				// Autoprefixer
+	autoprefixer	= require('gulp-autoprefixer'),				// Autoprefixer
 	size 			= require('gulp-filesize'),				// File Size
 	plumber 		= require('gulp-plumber'); 				// Don't stop if errors
 	livereload 		= require('gulp-livereload');				// Livereload
